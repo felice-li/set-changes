@@ -1,0 +1,14 @@
+scene-num,scene-name,set,strike
+1.0,trauma,stage chair tv table blackboard car streetlight,
+2.0,cafe,triangle1 triangle2 big-circle small-circle,stage tv table blackboard car streetlight
+3.0,speakeasy,triangle1-flip triangle2-flip big-circle-move small-circle-move bookshelf bar table booth stool1 stool2,triangle1 triangle2 big-circle small-circle chair
+4.0,dressing-room,wall dressing-rack booth-flip triangle3 vanity chair1 chair2,triangle1-flip triangle2-flip big-circle-move small-circle-move bookshelf bar table booth stool1 stool2
+5.0,dressing-room,,
+5.5,speakeasy,triangle1-flip triangle2-flip big-circle-move small-circle-move bookshelf bar table booth stool1 stool2,wall dressing-rack booth-flip triangle3 vanity chair1 chair2
+6.0,brewery,triangle3-flip barrel wall-flip,triangle1-flip triangle2-flip big-circle-move small-circle-move booth stool1 stool2
+7.0,dressing-room,wall dressing-rack booth-flip triangle3 vanity chair1 chair2,bookshelf triangle3-flip bar table barrel wall-flip
+8.0,speakeasy,triangle1-flip triangle2-flip big-circle-move small-circle-move bookshelf bar table booth stool1 stool2,wall dressing-rack booth-flip triangle3 vanity chair1 chair2
+9.0,dressing-room,wall dressing-rack booth-flip triangle3 vanity chair1 chair2,triangle1-flip triangle2-flip big-circle-move small-circle-move bookshelf bar table booth stool1 stool2
+10.0,brewery,bookshelf triangle3-flip bar table barrel wall-flip,wall dressing-rack booth-flip triangle3 vanity chair1 chair2
+11.0,speakeasy,triangle1-flip triangle2-flip big-circle-move small-circle-move booth stool1 stool2,triangle3-flip barrel wall-flip
+12.0,speakeasy,,
