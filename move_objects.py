@@ -1,25 +1,6 @@
 import csv
 from collections import OrderedDict
 
-# for future: could prob do this with hash maps?
-
-# class piece:
-#     # attributes: side, move
-#     def __init__(self, name, left, right):
-#         # name is the first thing
-#         obj_name = name.split("_")[0]
-#         self.name = obj_name
-#         # denote what side the set piece is on 
-#         if obj_name in left:
-#             self.side = "left"
-#         elif obj_name in right:
-#             self.side = "right"
-#         # denote whether the set piece is moved
-#         if len(name.split("_")) > 1:
-#             self.move = True
-#         else:
-#             self.move = False
-
 # create 2 lists, left and right, that holds the pieces on stage left and right respectively
 left = []
 right = []
@@ -100,7 +81,7 @@ def compare_scene(scene1, scene2):
             else: 
                 todo['set_right'] += scene2things[i] + ' '
     return todo
-# print(compare_scene("speakeasy","brewery"))
+
 
 # will be written to csv
 # output is a list of dictionaries, with each dictionary having the following info: (1) scene-num, (2) scene-name, (3) set, (4) strike
@@ -117,12 +98,9 @@ for scene_num in dict(list(numbers_scene.items())):
     else: 
         this_scene.update(compare_scene(scene_name1, scene_name).items())
     # add it to final output
-    # print(this_scene)
     output.append(this_scene)
     # keep track of prev scene with scene_name1
     scene_name1 = scene_name
-
-# print(output)
 
 with open('moves.csv', 'w', newline='') as csvfile:
     fieldnames = ['scene-num', 'scene-name', 'set_left', 'strike_left', "set_right", "strike_right"]
@@ -132,16 +110,6 @@ with open('moves.csv', 'w', newline='') as csvfile:
 
 
 ## future
-# verb dont count ## check
-# verb makign things appear twice (strike)
 # same people moving same things
 # automatically balance left v right? iffy
-
-# before defining things to be a "piece" object, strip the _MOVE
-
-# table_a = piece("table", ["table"], ["chair"])
-# print(table_a.side)
-# print(table_a.move)
-
-# left right
-# moved or not moved
+# !! could prob do this with hash maps?
