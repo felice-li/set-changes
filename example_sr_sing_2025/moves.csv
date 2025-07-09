@@ -1,0 +1,14 @@
+scene-num,scene-name,set_left,strike_left,set_right,strike_right
+1.0,trauma,stage chair tv-table table blackboard blackboard car car streetlight,,,
+2.0,cafe,triangle2 big-circle big-circle small-circle small-circle ,blackboard blackboard car car streetlight ,triangle1 ,stage tv-table table 
+3.0,speakeasy,triangle2_FLIP big-circle_MOVE big-circle_MOVE small-circle_MOVE booth booth stool1 stool2 ,triangle2 big-circle big-circle small-circle small-circle ,triangle1_FLIP bookshelf bookshelf bar-table bar-table ,triangle1 chair 
+4.0,dressing-room,booth_FLIP booth_FLIP vanity vanity ,booth booth stool1 stool2 ,wall wall dressing-rack triangle3 chair1 chair2 ,bookshelf bookshelf bar-table bar-table 
+5.0,dressing-room,,,,
+5.5,speakeasy,triangle2_FLIP big-circle_MOVE big-circle_MOVE small-circle_MOVE booth booth stool1 stool2 ,vanity vanity ,triangle1_FLIP bookshelf bookshelf bar-table bar-table ,wall wall dressing-rack triangle3 chair1 chair2 
+6.0,brewery,barrel ,booth booth stool1 stool2 ,triangle3_FLIP wall_FLIP wall_FLIP ,
+7.0,dressing-room,booth_FLIP booth_FLIP vanity vanity ,barrel ,wall wall dressing-rack triangle3 chair1 chair2 ,bookshelf bookshelf bar-table bar-table 
+8.0,speakeasy,triangle2_FLIP big-circle_MOVE big-circle_MOVE small-circle_MOVE booth booth stool1 stool2 ,vanity vanity ,triangle1_FLIP bookshelf bookshelf bar-table bar-table ,wall wall dressing-rack triangle3 chair1 chair2 
+9.0,dressing-room,booth_FLIP booth_FLIP vanity vanity ,booth booth stool1 stool2 ,wall wall dressing-rack triangle3 chair1 chair2 ,bookshelf bookshelf bar-table bar-table 
+10.0,brewery,barrel ,vanity vanity ,bookshelf bookshelf triangle3_FLIP bar-table bar-table wall_FLIP wall_FLIP ,wall wall dressing-rack triangle3 chair1 chair2 
+11.0,speakeasy,triangle2_FLIP big-circle_MOVE big-circle_MOVE small-circle_MOVE booth booth stool1 stool2 ,barrel ,triangle1_FLIP ,
+12.0,speakeasy,,,,

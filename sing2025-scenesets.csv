@@ -1,6 +1,0 @@
-scene-name,scene-numbers,items
-trauma,1,stage chair tv-table table blackboard blackboard car car streetlight
-cafe,2,triangle1 triangle2 big-circle big-circle small-circle small-circle chair
-speakeasy,3 5.5 8 11 12,triangle1-flip triangle2-flip big-circle-move big-circle-move small-circle-move bookshelf bookshelf bar-table bar-table booth booth stool1 stool2
-dressing-room,4 5 7 9,wall wall dressing-rack booth-flip booth-flip triangle3 vanity vanity chair1 chair2
-brewery,6 10,bookshelf bookshelf triangle3-flip bar-table bar-table barrel wall-flip wall-flip
